@@ -10,7 +10,7 @@ int pwm = 1;
 double pot; 
 void setup()
 {
-  pinMode(motorA1, OUTPUT); //fuck my ass
+  pinMode(motorA1, OUTPUT);
   pinMode(motorA2,OUTPUT); // Setting arudino pin 5 as an output
   pinMode(motorB1, OUTPUT); //setting arduino pin 6 as an output
   pinMode(motorB2,OUTPUT);  // setting arduino pin 7 as an output 
@@ -24,7 +24,7 @@ void setup()
 
 void loop()
 {
-  //setting up the pontionementer inputs
+  //setting up the potentiometer inputs
   pot = analogRead(A0);
   pot = (pot/1023)*250;
   //code for moving forward
