@@ -2,10 +2,10 @@ For this project, I had to relearn a lot of arduino. I found that I had forgotte
 
 The way My circuit works is that it has motor driver inputs connected to arduino PWM pins 3,5,9,10. These pins are initalized as an output in Arduino and dictate which direction the motors will move. 
 The Controls of the motor are dictated by a dipswitch which, through of a series of if else statements, accomplishes theses series of controls: 
-        First button = forwards 
-        Second button = Reverse 
-        Third button = Left 
-        Fourth button = Right 
+        First button = forwards, 
+        Second button = Reverse, 
+        Third button = Left, 
+        Fourth button = Right, 
         no buttons = Stop. (NOTE that to go to any of the later commands none of the other buttons can be toggled)
 To control the speed of the motors, a potentiometer is connected to analog 1, and it is read into a variable. Then, using SerialWrite the motors speed can be varied. 
 Lastly, here is the link to my tinker project: https://www.tinkercad.com/things/1DbXHgsqqnx 
