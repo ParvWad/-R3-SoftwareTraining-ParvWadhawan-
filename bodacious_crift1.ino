@@ -11,10 +11,10 @@ double pot;
 void setup()
 {
   pinMode(motorA1, OUTPUT);
-  pinMode(motorA2,OUTPUT); // Setting arudino pin 5 as an output
-  pinMode(motorB1, OUTPUT); //setting arduino pin 6 as an output
-  pinMode(motorB2,OUTPUT);  // setting arduino pin 7 as an output 
-  pinMode(Forward_toggle, INPUT); 
+  pinMode(motorA2,OUTPUT); // Setting arudino output pins
+  pinMode(motorB1, OUTPUT); 
+  pinMode(motorB2,OUTPUT);  
+  pinMode(Forward_toggle, INPUT); //setting the dipswitch states
   pinMode(Reverse_toggle, INPUT); 
   pinMode(Left_toggle, INPUT); 
   pinMode(Right_toggle, INPUT);
